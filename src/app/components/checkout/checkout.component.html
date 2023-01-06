@@ -1,0 +1,58 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-10">
+      <span class="titulo">Checkout</span>
+    </div>
+    <div class="display col-2 align-items-end">
+      <div class="steps" >
+        <button mat-icon-button class="step1 menu-icon example-icon" aria-label="Example icon-button with menu icon">
+          1
+        </button>
+      </div>
+      <div class="steps" >
+        <button mat-icon-button class="step2 menu-icon example-icon" aria-label="Example icon-button with menu icon">
+         2
+        </button>
+      </div>
+      <div class="steps" >
+        <button mat-icon-button class="step3 menu-icon example-icon" aria-label="Example icon-button with menu icon">
+          3
+        </button>
+      </div>
+      <div class="steps" >
+        <button mat-icon-button class="step4 menu-icon example-icon" aria-label="Example icon-button with menu icon">
+          4
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row rowDelivery">
+    <div class="col"></div>
+    <div class="col ">
+      <span class="textoHR">Free delivery in Portugal for amounts over 50€.</span>
+    </div>
+    <div class="col"></div>
+  </div>
+
+  <div class="row rowPreco">
+    <div class="preco">Total: 50€</div>
+    <div class="mes">per month</div>
+  </div>
+
+</div>
+
+
+<mat-stepper class="example-stepper">
+  <mat-step [stepControl]="firstFormGroup" label="Check your cart">
+    <app-checkout-step1></app-checkout-step1>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup" label="YOUR DATA">
+    <app-checkout-step2></app-checkout-step2>
+  </mat-step>
+  <mat-step [stepControl]="thirdFormGroup" label="Payment">
+    <app-checkout-step3></app-checkout-step3>
+  </mat-step>
+</mat-stepper>
+
+
+

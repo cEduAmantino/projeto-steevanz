@@ -1,0 +1,88 @@
+
+.container-fluid {
+  margin-top: 30px;
+}
+
+.titulo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.rowDelivery {
+  margin-top: 15px;
+  height: 50px;
+  background: #C6B784;
+  display: flex;
+  align-items: center;
+}
+
+.textoHR {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.display {
+  display: flex;
+}
+
+.rowPreco {
+  background: #E9E9E9;
+  height: 68px;
+}
+
+.steps {
+  margin-left: 10px;
+}
+
+.preco,
+.mes {
+  display: inline-block;
+  margin-left: 1%;
+}
+
+.preco {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #5B5B5B;
+}
+
+.mes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #5B5B5B;
+}
+
+.rowStep{
+  background-color: #FFFFFF;
+}
+
+.step1{
+  background-color: #FFFFFF !important;
+}
+
+.step2, .step3, .step4 {
+  background-color: black !important;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.teste{
+    overflow: hidden;
+    padding: 0 !important;
+}

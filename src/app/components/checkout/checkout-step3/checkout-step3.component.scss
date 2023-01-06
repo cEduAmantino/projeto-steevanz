@@ -1,0 +1,125 @@
+.a {
+  width: 60%;
+  display: inline-block;
+}
+
+.b {
+  width: 40%;
+  float: right;
+}
+
+.a,
+.b {
+  margin-top: 20px;
+}
+
+.example-month-picker .mat-calendar-period-button {
+  pointer-events: none;
+}
+
+.example-month-picker .mat-calendar-arrow {
+  display: none;
+}
+
+.imagem {
+  margin-bottom: 40px;
+  width: 70%;
+  height: 80%;
+}
+
+.textoCard {
+  position: absolute;
+  margin-left: 20%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #5B5B5B;
+}
+
+.textoCheckBox {
+  padding-top: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #1A1A1A;
+}
+
+button {
+  width: 151px;
+  height: 33px;
+  border-radius: 33px;
+}
+
+
+.botaoCompany {
+  background: #FFFFFF;
+  border: 1px solid #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1A1A1A;
+  cursor: pointer;
+}
+
+.botaoPersonal {
+  background: #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.botaoPrevious {
+  background: #FFFFFF;
+  border: 1px solid #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1A1A1A;
+  cursor: pointer;
+}
+
+.botaoNext {
+  background: #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  float: right;
+  cursor: pointer;
+}
+
+.rowBotoes{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.inputCard{
+  width: 80% !important;
+}
+
+.classCvc{
+  width: 60% !important;
+}
+
+.example-action-buttons {
+  padding-bottom: 20px;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}

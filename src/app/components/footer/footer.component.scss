@@ -1,0 +1,45 @@
+.container-fluid{
+  margin-top: 20px;
+  box-shadow: 0px -15px 5px black !important;
+  background-color: #1A1A1A;
+}
+
+.tituloRodape {
+  color: #FFFFFF;
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.grid{
+  margin-top: 20px;
+  height: 150px;
+}
+
+.quemSomos,
+.faqs,
+.contacts, .complaints,
+.termos {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.menu-icon{
+  background-color: #FFFFFF;
+}
+
+.display{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.steps{
+  margin-left: 40px;
+}

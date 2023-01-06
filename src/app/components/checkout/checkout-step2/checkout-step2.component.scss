@@ -1,0 +1,132 @@
+.central {
+  background-color: #FFFFFF;
+}
+
+.a {
+  width: 60%;
+  display: inline-block;
+}
+
+.b {
+  width: 40%;
+  float: right;
+}
+
+.a,
+.b {
+  margin-top: 20px;
+}
+
+.firstColun,
+.secondColun {
+  width: 50%;
+  display: inline-block;
+}
+
+.ajusteInput {
+  width: 80% !important;
+  margin-left: 30px;
+}
+
+.ajusteDivAddress,
+.ajusteDivMessage {
+  width: 90% !important;
+  margin-left: 30px;
+}
+
+.debug,
+p {
+  margin-left: 30px;
+}
+
+.tituloPresente {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #1A1A1A;
+}
+
+.customMessage {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #1A1A1A;
+}
+
+button {
+  width: 151px;
+  height: 33px;
+  border-radius: 33px;
+}
+
+.colBotaoPrevious {
+  margin-left: 0.5%;
+}
+
+
+.colBotaoCompany {
+  margin-left: 2%;
+
+}
+
+.botaoCompany {
+  background: #FFFFFF;
+  border: 1px solid #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1A1A1A;
+  cursor: pointer;
+}
+
+.botaoPersonal {
+  background: #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.botaoPrevious {
+  background: #FFFFFF;
+  border: 1px solid #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1A1A1A;
+  cursor: pointer;
+}
+
+.botaoNext {
+  background: #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  float: right;
+  cursor: pointer;
+}
+
+.rowBotoes{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.textoCheckBox {
+  padding-top: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #1A1A1A;
+}

@@ -1,0 +1,68 @@
+.container-fluid {
+  height: 100%;
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.titulo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.congrat {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.evaluated {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.texto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #FFFFFF;
+}
+
+.homeButton {
+  align-items: center;
+  width: 624px;
+  height: 54px;
+  left: 40px;
+  top: 628px;
+  background: #1A1A1A;
+  border: 1px solid #FFFFFF;
+  border-radius: 33px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+.colTitulo {
+  padding-bottom: 20px;
+}

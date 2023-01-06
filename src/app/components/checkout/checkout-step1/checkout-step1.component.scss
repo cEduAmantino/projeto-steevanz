@@ -1,0 +1,79 @@
+button {
+  width: 151px;
+  height: 33px;
+  border-radius: 33px;
+}
+
+.botaoClean {
+  background: #FFFFFF;
+  border: 1px solid #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1A1A1A;
+  cursor: pointer;
+}
+
+.botaoNext {
+  background: #1A1A1A;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  float: right;
+  cursor: pointer;
+}
+
+.container-fluid {
+  margin-top: 40px;
+  padding: 0px !important;
+}
+
+.titulo {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #1A1A1A;
+}
+
+.coupon {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 130%;
+  color: #5B5B5B;
+}
+
+.inputCoupon {
+  width: 50% !important;
+}
+
+.textoCoupon {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+
+  color: #1A1A1A;
+}
+
+.rowBotoes{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.rowImagem{
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.searchIcon{
+  float: right !important;
+  position: absolute;
+  margin-left: -20px !important;
+}

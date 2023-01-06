@@ -1,0 +1,122 @@
+<div class="central">
+  <div class="row">
+    <div class="col-1 colBotaoPersonal">
+      <button class="botaoPersonal">PERSONAL</button>
+    </div>
+    <div class="col colBotaoCompany">
+      <button class="botaoCompany">COMPANY</button>
+    </div>
+  </div>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="a">
+
+      <div class="firstColun">
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo" appearance="fill">
+          <mat-label>Firstname(s)</mat-label>
+          <input matInput placeholder="Pedro" formControlName="firstName" required />
+        </mat-form-field>
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pedros@gmail.com" formControlName="email" required />
+        </mat-form-field>
+
+        <mat-form-field class="ajusteInput" appearance="fill" [formGroup]="formularioReativo">
+          <mat-label>Country</mat-label>
+          <mat-select formControlName="country">
+            <mat-option *ngFor="let p of paises" [value]="p.value">
+              {{p.viewValue}}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- <mat-form-field class="ajusteInput" >
+          <mat-label>Country</mat-label>
+          <input matInput placeholder="Portugal" (click)="consultaPais()"  formControlName="country" required />
+        </mat-form-field> -->
+      </div>
+
+      <div class="secondColun">
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>Lastname(s)</mat-label>
+          <input matInput placeholder="Silva" formControlName="lastName" required />
+        </mat-form-field>
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>Phone</mat-label>
+          <input matInput placeholder="918 456 176" formControlName="phone" required />
+        </mat-form-field>
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>Location</mat-label>
+          <input matInput placeholder="Porto" formControlName="location" required />
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field class="ajusteDivAddress" [formGroup]="formularioReativo">
+          <mat-label>Address</mat-label>
+          <input matInput placeholder="Av. dos Aliados" formControlName="address" required />
+        </mat-form-field>
+      </div>
+
+      <div class="firstColun">
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>Postal code</mat-label>
+          <input matInput placeholder="1234 — 456" formControlName="postalCode" required />
+        </mat-form-field>
+      </div>
+
+      <div class="secondColun">
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>VAT number</mat-label>
+          <input matInput placeholder="122 334 455" formControlName="vatNumber" required />
+        </mat-form-field>
+      </div>
+    </div>
+
+
+    <div class="b">
+
+      <div class="firstColun">
+        <p class="tituloPresente">Is this purchase an offer?</p>
+        <p class="customMessage">Add a custom message</p>
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>From</mat-label>
+          <input matInput placeholder="Sender's name" formControlName="from" required />
+        </mat-form-field>
+      </div>
+
+      <div class="secondColun">
+        <mat-form-field class="ajusteInput" [formGroup]="formularioReativo">
+          <mat-label>To</mat-label>
+          <input matInput placeholder="Receiver's name" formControlName="to" required />
+        </mat-form-field>
+      </div>
+
+      <div>
+        <mat-form-field class="ajusteDivMessage" [formGroup]="formularioReativo">
+          <mat-label>Message</mat-label>
+          <textarea matInput placeholder="Write your message here" formControlName="message"></textarea>
+        </mat-form-field>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col" [formGroup]="formularioReativo">
+        <mat-checkbox class="example-margin textoCheckBox" formControlName="checkBoxStep2">I have read and accept the
+          store's terms and conditions*.</mat-checkbox>
+      </div>
+    </div>
+
+    <div class="row rowBotoes">
+      <div class="col-6 colBotaoPrevious">
+        <button class="botaoPrevious" matStepperPrevious>PREVIOUS</button>
+      </div>
+      <div class="col">
+        <button class="botaoNext" matStepperNext>NEXT</button>
+      </div>
+    </div>
+
+  </form>
+
+</div>
